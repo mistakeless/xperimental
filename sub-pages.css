@@ -2,27 +2,10 @@
 
 
 
-/* FONTS */
-
-@font-face {
-	font-family: font;
-	src: url();
-}
-
-
-
-/* COLOUR VARIABLES */
-
-:root {
-	--bg-colour-1: whitesmoke;
-}
-
-
-
 /* GLOBAL */
 
 .body {
-	background-color: var(--bg-colour-1, whitesmoke);
+	background-color: whitesmoke;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 	margin: 1rem;
@@ -45,7 +28,7 @@
 	display: inline-block;
 	border: 1px solid black;
 
-	padding-right: 20vw;
+	padding-right: 24vw;
 	margin-bottom: 30px;
 }
 
@@ -96,7 +79,7 @@
 
 	font-size: 20px;
 
-	padding-right: 24vw;
+	padding-right: 14vw;
 	margin-bottom: 30px;
 }
 
