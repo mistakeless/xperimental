@@ -92,6 +92,23 @@ h3 {
 	margin-left: 28px;
 }
 
+h4 {
+	margin-left: 28px;
+	font-size: 1.1rem;
+}
+
+.vid-titles {
+	border-left: 5px solid black;
+	margin: 95px 0px 35px 36px;
+}
+
+.credit {
+	margin-top: 50px;
+	padding: 5px;
+	background-color: whitesmoke;
+	border: 1px solid black;
+}
+
 p {
 	margin-left: 40px;
 	line-height: 1.4;
@@ -112,32 +129,6 @@ p {
 .discord-icon {
 	height: 22px;
 	margin-left: 7px;
-}
-
-
-
-/* VIDEO */
-
-.video {
-	display: block;
-	margin: 30px auto 30px auto;
-	border: 1px solid black;
-
-	width: 50%;
-}
-
-.vid-wrap {
-	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
-}
-
-.vid-wrap iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
 }
 
 
@@ -163,4 +154,32 @@ p {
 	.grid {
 		grid-template-columns: none;
 	}
+}
+
+
+
+/* VIDEO */
+
+.video {
+	display: block;
+	margin: 30px auto 30px auto;
+	border: 1px solid black;
+
+	box-shadow: 40px 45px 80px;
+
+	width: 50%;
+}
+
+.vid-wrap {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.vid-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
