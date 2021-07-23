@@ -2,4 +2,4 @@
 
 art collective website
 
-https://xperimental-art.netlify.app/
+https://releasetheimp.com/
