@@ -146,6 +146,10 @@ p {
 	gap: 30px;
 }
 
+.spacing {
+	padding: 30px;
+}
+
 
 
 /* MEDIA QUERIES */
@@ -154,6 +158,17 @@ p {
 	.grid {
 		grid-template-columns: none;
 	}
+}
+
+
+
+/* BANDCAMP EMBED */
+
+.bandcamp-embed {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
 }
 
 
