@@ -184,6 +184,25 @@ p {
 
 
 
+/* PROJECT MEDIA */
+
+audio {
+	margin-left: 40px;
+	border: 1px solid black;
+	border-radius: 40px;
+}
+
+img {
+	margin-left: 40px;
+}
+
+video {
+	margin-left: 40px;
+}
+
+
+
+
 /* VIDEO */
 
 .video {
