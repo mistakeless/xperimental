@@ -11,6 +11,10 @@
 	margin: 1rem;
 }
 
+span {
+	white-space: nowrap;
+}
+
 
 
 /* TITLE */
